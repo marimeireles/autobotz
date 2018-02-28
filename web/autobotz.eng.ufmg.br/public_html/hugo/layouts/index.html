@@ -1,0 +1,98 @@
+{{define "main"}}
+
+    <!-- INTRODUCTION -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <p style="padding-top: 90px;"><b>Autobotz is a research and competition group from the Federal University of Minas Gerais (UFMG) focused on mechatronics, control, and robotics. Our objective is to participate in competitions and push science forward.</b></p>
+          <p style="padding-top: 15px"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- POST LIST -->
+    <div class="container" style="border-image: 20px;">
+    <div class="row justify-content-center">
+      <div class="col-8">
+        {{ range first 2 .Data.Pages }}
+        {{ if eq .Type "posts"}}
+        <article>
+          <!-- this <div> includes the title summary -->
+          <div >
+            <h2><a href="{{ .RelPermalink }}" class="title-post">{{ .Title }}</a></h2>
+            {{ .Summary }}
+            {{ if isset .Params "image" }}
+            <img style="margin-top:10px"src="{{ .Params.image }} ">
+            {{ end }}
+          </div>
+          {{ if .Truncated }}
+          <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+          <div>
+            <a style="text-decoration: underline !important;" href="{{ .RelPermalink }}">Read More</a>
+          </div>
+          {{ end }}
+        </article>
+    {{ end }}
+    {{ end }}
+      </div>
+    </div>  
+    </div>
+
+    <!-- CARDS -->
+    <div class="container" style=" padding-top: 60px; padding-bottom:150px;">
+        <div class="row justify-content-center">
+          <li class="cards__item">
+            <div class="card">
+              <div><img src="/images/logo-big.png"></div>
+              <div class="card__content">
+                <div class="card__title">Autoboat</div>
+                <p class="card__text">A boat that uses sensors to drive itself. It was built to participate the Open IEEE competition.</p>
+                <ul>
+                  <li class="li_text">Learn more about <a href="/autoboat">Autoboat</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="card">
+              <div><img src="/images/logo-big.png"></div>
+              <div class="card__content">
+                <div class="card__title">Running machine</div>
+                <p class="card__text">A running machine built to attend many porpouses.</p>
+                <ul>
+                  <li class="li_text">Learn more about <a href="/running-machine">Running machine</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </div>
+        <div class="row justify-content-center">
+          <li class="cards__item">
+            <div class="card">
+              <div><img src="/images/logo-big.png"></div>
+              <div class="card__content">
+                <div class="card__title">VSS Soccer</div>
+                <p class="card__text">A football team built to compet in the VSSS IEEE competition.</p>
+                <ul>
+                  <li class="li_text">Learn more about <a href="/vss-soccer">VSS Soccer</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item">
+            <div class="card">
+              <div><img src="/images/logo-big.png"></div>
+              <div class="card__content">
+                <div class="card__title">Platform</div>
+                <p class="card__text">A terrain platform built for many porpuses. It's currently being developed by our team.</p>
+                <ul>
+                  <li class="li_text">Learn more about <a href="/platform">Platform</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </div>
+        <!--cards explaining the projects-->
+    </div>
+
+{{end}}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Autobotz</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Autobotz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 13 Oct 2017 12:03:11 -0300</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mostra de profissões 2017</title>
+      <link>http://example.org/posts/teste-1/</link>
+      <pubDate>Fri, 13 Oct 2017 12:03:11 -0300</pubDate>
+      
+      <guid>http://example.org/posts/teste-1/</guid>
+      <description>Autobotz was in the Mostra de Profissões 2017 UFMG. The members prepared robots and other Autobot&amp;rsquo;s experiments to arouse the interest of highschool students in engineering and science.
+The exposition lasted the whole day and students were able to interact with the projects and talk with the team.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autoboat</title>
+      <link>http://example.org/autoboat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/autoboat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Become a supporter</title>
+      <link>http://example.org/become-a-supporter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/become-a-supporter/</guid>
+      <description>Autobotz is always looking forward to make new connections with great companies. If you want to support our team you can contact us directly using our contact us page.
+As an Autobotz sponsor we will proudly use your logo at our robots and projects.
+The Autobotz team is also highly qualified to offer workshops using your products either in big events like the Maker Fair or FINIT, or inside the UFMG Engineering School.</description>
+    </item>
+    
+    <item>
+      <title>Contact us</title>
+      <link>http://example.org/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/contact-us/</guid>
+      <description>This page is under construction.
+You can still contact us through our email: autobotz@</description>
+    </item>
+    
+    <item>
+      <title>Discover Autobotz</title>
+      <link>http://example.org/discover-autobotz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/discover-autobotz/</guid>
+      <description>Autobotz is a group managed by students and tutored by Guilherme Raffo, professor of Automation Engineering in UFMG and it&amp;rsquo;s a part of the research group MACRO, runned by him.
+Our main focus are autonomous robotics, mecatronic and control.
+Autobotz was founded in 2012 by students who wanted to put in pratical the subjects they&amp;rsquo;ve learned in graduation, exploring what engineering has to offer to open minded, hunger apprentices.
+Using robotic competitions as a guide, we work to learn and develop new methods to create awesome robots.</description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>http://example.org/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/events/</guid>
+      <description>We&amp;rsquo;re not planning any event in the moment. Do you want to propose something? Contact us</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://example.org/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/faq/</guid>
+      <description>To learn more about our recruitment process access Join our team.
+Want to become a sponser? Read more at our Become a supporter session.</description>
+    </item>
+    
+    <item>
+      <title>Join our team</title>
+      <link>http://example.org/join-our-team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/join-our-team/</guid>
+      <description>We&amp;rsquo;re planning the next process to the end of 2017&amp;frasl;2. Stay tunned in our Facebook page and our site to learn more about it!</description>
+    </item>
+    
+    <item>
+      <title>People and robots</title>
+      <link>http://example.org/people-and-robots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/people-and-robots/</guid>
+      <description>This page is currently under construction. You can come back later to check the specifities of our crew!</description>
+    </item>
+    
+    <item>
+      <title>Platform</title>
+      <link>http://example.org/platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/platform/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Running Machine</title>
+      <link>http://example.org/running-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/running-machine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSS Soccer</title>
+      <link>http://example.org/vss-soccer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/vss-soccer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

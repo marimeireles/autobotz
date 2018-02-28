@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Become-a-supporters on Autobotz</title>
+    <link>http://example.org/become-a-supporter/</link>
+    <description>Recent content in Become-a-supporters on Autobotz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    
+	<atom:link href="http://example.org/become-a-supporter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Become a supporter</title>
+      <link>http://example.org/become-a-supporter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/become-a-supporter/</guid>
+      <description>Autobotz is always looking forward to make new connections with great companies. If you want to support our team you can contact us directly using our contact us page.
+As an Autobotz sponsor we will proudly use your logo at our robots and projects.
+The Autobotz team is also highly qualified to offer workshops using your products either in big events like the Maker Fair or FINIT, or inside the UFMG Engineering School.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Discover-autobotzs on Autobotz</title>
+    <link>http://example.org/discover-autobotz/</link>
+    <description>Recent content in Discover-autobotzs on Autobotz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    
+	<atom:link href="http://example.org/discover-autobotz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Discover Autobotz</title>
+      <link>http://example.org/discover-autobotz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/discover-autobotz/</guid>
+      <description>Autobotz is a group managed by students and tutored by Guilherme Raffo, professor of Automation Engineering in UFMG and it&amp;rsquo;s a part of the research group MACRO, runned by him.
+Our main focus are autonomous robotics, mecatronic and control.
+Autobotz was founded in 2012 by students who wanted to put in pratical the subjects they&amp;rsquo;ve learned in graduation, exploring what engineering has to offer to open minded, hunger apprentices.
+Using robotic competitions as a guide, we work to learn and develop new methods to create awesome robots.</description>
+    </item>
+    
+  </channel>
+</rss>

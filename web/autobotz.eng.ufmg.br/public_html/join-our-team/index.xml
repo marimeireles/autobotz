@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Join-our-teams on Autobotz</title>
+    <link>http://example.org/join-our-team/</link>
+    <description>Recent content in Join-our-teams on Autobotz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    
+	<atom:link href="http://example.org/join-our-team/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Join our team</title>
+      <link>http://example.org/join-our-team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/join-our-team/</guid>
+      <description>We&amp;rsquo;re planning the next process to the end of 2017&amp;frasl;2. Stay tunned in our Facebook page and our site to learn more about it!</description>
+    </item>
+    
+  </channel>
+</rss>

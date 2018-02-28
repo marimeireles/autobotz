@@ -1,0 +1,98 @@
+{{ define "title" }}
+  {{ .Title }} – {{ .Site.Title }}
+{{ end }}
+
+{{define "header"}}
+<header>
+
+    <div class="header">
+      <div class="container" >
+        <div class="row">
+            <div class="col-1 ">
+              <a href="/"><img src="/images/logo.png" ></a>
+            </div>
+            <div class="col-7" style="margin-top: -10px">
+              <h1><a href="/discover-autobotz">Discover Autobotz</a></h1>
+            </div>
+            <div class="col-3" style="margin-top: -10px">
+              <h1><a id="logo-small" href="/join-our-team">Join our team</a></h1>
+            </div>
+             <a href="#top"> <h1 id="new-top"></h1></a>
+          </div>
+        </div>
+    </div>
+    <!--first header bar-->
+
+    <div class="second_header-post" style="top: 40px">
+      <div class="container">
+        <div class="row">
+
+              <div id="menu-container">
+              <div id="menu-wrapper">
+                <div id="hamburger-menu"><span></span><span></span><span></span></div>
+                <!-- hamburger-menu -->
+                </div>
+              <!-- menu-wrapper -->
+              <ul class="menu-list accordion">
+                  <li id="nav1" class="toggle accordion-toggle"> 
+                    <a class="menu-link" href="/news">News</a>
+                  </li>
+                  <!-- menu-submenu accordon-content-->
+                  <li id="nav2" class="toggle accordion-toggle"> 
+                    <a class="menu-link" href="/events">Events</a>
+                  </li>           
+                  <!-- menu-submenu accordon-content-->
+                  <li id="nav4" class="toggle accordion-toggle"> 
+                    <a class="menu-link" href="/faq/">FAQ</a>
+                </li>
+                <!-- menu-submenu accordon-content-->
+            </ul>
+            <!-- menu-list accordion-->
+          </div>
+          <!-- menu-container -->
+             
+          <div class="col-4 text">
+            <a href="/become-a-supporter"><h1>Become a supporter</h1></a>
+          </div>
+
+          <div class="col-3 text">
+            <a href="/people-and-robots"><h1>People and Robots</h1></a>
+          </div>
+             
+                  <div class="col-2 text">
+            <a href="/contact-us"><h1>Contact us</h1></a>
+          </div>
+             
+              <div class="col-2" id='search-box'>
+              <form action='/search' id='search-form' method='get' target='_top'>
+              <input id='search-text' name='q' placeholder='' type='text'/>
+              <button id='search-button' type='submit'>
+                <span style="text-transform: uppercase;">Search</span>
+              </button>
+            </form>
+          </div>
+          <!--search box-->
+        </div>
+          </div>
+    </div>
+    <!--second header bar--> 
+{{end}}
+
+{{ define "main" }}
+  <div class="container ">
+	  <div class="row justify-content-center">
+		  <div class="col">
+		    <h1 class="title-post" style="padding-top: 60px">{{ .Title }}</h1>
+		    </div>
+	  </div>
+		  <div class="row justify-content-center">
+		  	<div class="col">
+		    <p class="text-post" style="width: 80%">
+		  		{{ .Content }}
+		  	</p>
+		  	</div>
+		  </div>
+	  </div>
+{{ end }}
+
+

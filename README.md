@@ -45,7 +45,7 @@ Open your terminal and go to the directory where you want to save the website.
 
 ```
 git init
-git clone git@github.com:autobotz-ufmg/autobotz-ufmg.github.io.git
+git clone git@github.com:marimeireles/autobotz.git
 ```
 
 ## Creating a new blog post and uploading it
